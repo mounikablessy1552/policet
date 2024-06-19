@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --text-color: #0e4d92;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    transition: all .4s linear;
+}
+
+.header {
+    padding: 0px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: last baseline;
+}
+
+.header-top img {
+    width: 90px;
+    height: 80px;
+}
+
+.header-top-content {
+    text-align: center;
+    line-height: 5px;
+}
+
+.header-top-content h3 {
+    font-size: 24px;
+    color: green;
+    margin-bottom: 0;
+}
+
+.header-top-content h1 {
+    font-size: 28px;
+    color: var(--text-color);
+}
+
+.ul-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+
+.navigation {
+    background-color: var(--text-color);
+    align-items: center;
+    justify-content: center !important;
+}
+
+.ul-list li {
+    margin: 0px 3px;
+    padding: 0px 5px;
+    color: aliceblue;
+    font-family: poppins, serif;
+    text-transform: capitalize;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+
+.ul-list li:nth-child(5) {
+    border-right: none;
+}
+
+.ul-list li span {
+    text-transform: uppercase;
+}
+
+.marquee {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.marquee p {
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.toggle {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    .none {
+        display: none;
+    }
+
+    .header-top {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-top img {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+
+    .toggle,
+    .toggle button {
+        display: block;
+        background-color: transparent;
+        border: none;
+        padding-right: 60px;
+    }
+
+    .toggle button i {
+        font-size: 25px;
+        color: #fff;
+        padding: 10px 0px;
+    }
+
+
+    .ul-list li:nth-child(5) {
+        border-right: 1px solid #fff;
+    }
+
+    .navigation {
+        justify-content: right !important;
+    }
+}
+
+.contactus {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px #0E4D92;
+    width: 80%;
+    margin: 30px 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus-contact {
+    background-color: #0E4D92;
+    padding: 100px 10px;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    padding: 30px;
+    text-align: center;
+}
+
+.content2 {
+    text-align: center;
+    padding: 30px;
+}
+
+
+.content {
+    position: relative;
+    z-index: 0;
+}
+
+.paragraph {
+    margin-top: -20px;
+    padding: 25px 30px 60px;
+    background-color: #0E4D92;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paragraph h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.paragraph p {
+    font-size: 18px;
+}
+
+.line {
+    border-radius: 2px;
+    width: 100px;
+    height: 1px;
+    background-color: white;
+}
+
+.foot {
+    background-color: #0E4D92;
+    display: flex;
+    padding: 20px 5%;
+    justify-content: space-between;
+    align-items: self-start;
+    color: white;
+}
+
+.footer-image img {
+    width: 150px;
+    height: 55px;
+    margin-top: 10%;
+}
+
+.part2 {
+    display: flex;
+    align-items: self-start;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-image img {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .foot {
+        flex-wrap: wrap;
+    }
+}
+
+.ul-list li a {
+    text-decoration: none;
+    color: #fff;
+}

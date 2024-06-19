@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --text-color: #0e4d92;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    transition: all .4s linear;
+}
+
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.header {
+    padding: 0px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: last baseline;
+}
+
+.header-top img {
+    width: 90px;
+    height: 80px;
+}
+
+.header-top-content {
+    text-align: center;
+    line-height: 5px;
+}
+
+.header-top-content h3 {
+    font-size: 24px;
+    color: green;
+    margin-bottom: 0;
+}
+
+.header-top-content h1 {
+    font-size: 28px;
+    color: var(--text-color);
+}
+
+.ul-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+
+.navigation {
+    background-color: var(--text-color);
+    align-items: center;
+    justify-content: center !important;
+}
+
+.ul-list li {
+    margin: 0px 3px;
+    padding: 0px 5px;
+    color: aliceblue;
+    font-family: poppins, serif;
+    text-transform: capitalize;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+
+.ul-list li:nth-child(5) {
+    border-right: none;
+}
+
+.ul-list li span {
+    text-transform: uppercase;
+}
+
+.marquee {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.marquee p {
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.toggle {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    .none {
+        display: none;
+    }
+
+    .header-top {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-top img {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+
+    .toggle,
+    .toggle button {
+        display: block;
+        background-color: transparent;
+        border: none;
+        padding-right: 60px;
+    }
+
+    .toggle button i {
+        font-size: 25px;
+        color: #fff;
+        padding: 10px 0px;
+    }
+
+
+    .ul-list li:nth-child(5) {
+        border-right: 1px solid #fff;
+    }
+
+    .navigation {
+        justify-content: right !important;
+    }
+}
+
+.sign-in {
+    position: absolute;
+    background-color: #0E4D92;
+    margin-top: 30px;
+    border: 2px solid rgb(148, 160, 227);
+    height: 550px;
+    width: 55%;
+    display: flex;
+    margin-left: 40px;
+    border-radius: 20PX;
+    border-style: none;
+
+}
+
+.sign-p {
+    padding: 30px;
+    height: 400px;
+    color: azure;
+
+}
+
+.sign-p p {
+    text-decoration: underline;
+}
+
+.login {
+    border-right: 2px solid #0E4D92;
+    border-bottom: 2px solid #0e4d92;
+    border-top: 2px solid #0e4d92;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    height: 550px;
+    width: 35%;
+    margin-left: 875px;
+    margin-top: 28px;
+}
+
+.login1 h4 {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #0e4d92;
+}
+
+.fa {
+    margin-top: 30px;
+    margin-left: 25px;
+    color: #0e4d92;
+}
+
+.ty {
+
+    color: #0e4d92;
+}
+
+.he {
+    color: #0e4d92;
+
+}
+
+.login2 {
+    margin-left: 24PX;
+    margin-top: 20px;
+    border-bottom: 2px solid navy;
+    width: 90%;
+}
+
+.login3 {
+    margin-top: 5px;
+    margin-left: 25px;
+    color: #0e4d92;
+}
+
+.fa1 {
+    margin-top: -11px;
+    margin-left: 2px;
+    color: #0e4d92;
+}
+
+.us {
+    margin-top: -5px;
+    margin-left: 19px;
+    color: #0e4d92;
+    margin-left: 24PX;
+    margin-top: 20px;
+}
+
+.inp1 {
+    margin-left: 85px;
+    width: 20px;
+}
+
+.login4 {
+    margin-top: 10px;
+    border-top: 2px solid navy;
+    width: 95%;
+}
+
+.login5 {
+    margin-top: 20px;
+}
+
+.pa {
+    margin-left: 15px;
+}
+
+.inp2 {
+    margin-left: 85px;
+    width: 20px;
+}
+
+.login6 {
+    margin-top: 10px;
+    border-top: 2px solid navy;
+    width: 95%;
+}
+
+.inp3 {
+    margin-left: 60px;
+    width: 20px;
+}
+
+.login7 {
+    margin-top: 10px;
+    border-bottom: 2px solid navy;
+    width: 95%;
+}
+
+.ii {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.img1 {
+    height: 30px;
+    margin-left: 100px;
+}
+
+.login9 {
+    border-top: 2px solid navy;
+    width: 95%;
+    /* margin-top: -95px; */
+}
+
+.login11 {
+    border-top: 2px solid navy;
+    width: 95%;
+}
+
+.inp4 {
+    margin-left: 40px;
+    width: 20px;
+}
+
+.login12 {
+    margin-top: 40px;
+    margin-left: 220px;
+
+}
+
+.login12 button {
+    border-style: none;
+    border-radius: 20px;
+    background-color: green;
+    color: azure;
+    width: 70%;
+    height: 40PX;
+    margin-top: -30px;
+
+}
+
+.foot {
+    background-color: #0E4D92;
+    display: flex;
+    padding: 0px 5%;
+    justify-content: space-between;
+    align-items: self-start;
+    color: white;
+}
+
+.footer-image img {
+    width: 150px;
+    height: 55px;
+    margin-top: 10%;
+}
+
+.part2 {
+    display: flex;
+    align-items: self-start;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-image img {
+        margin-left: 20px;
+    }
+
+    .login {
+        margin-left: 20px;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .foot {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .sign-in {
+        width: 60%;
+    }
+
+    .sign-p {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .login {
+        height: 550px;
+        margin-left: 925px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .sign-in {
+        width: 60%;
+    }
+
+    .sign-p {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .login {
+        height: 560px;
+        margin-left: 800px;
+    }
+
+    .login1 {
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .login {
+        margin-left: 750px;
+    }
+
+    .inp1 input,
+    .inp2 input,
+    .inp3 input,
+    .inp4 input {
+        width: 130px;
+        border: 1px solid #000;
+        border-radius: 2px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .login {
+        margin-left: 700px;
+    }
+
+    .inp1 input,
+    .inp2 input,
+    .inp3 input,
+    .inp4 input {
+        width: 130px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .login {
+        margin-top: 600px;
+        margin-left: 50px;
+        width: 80%;
+        height: auto;
+    }
+
+    .sign-in {
+        width: 80%;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .inp1 input,
+    .inp2 input,
+    .inp3 input,
+    .inp4 input {
+        width: 130px;
+    }
+}
